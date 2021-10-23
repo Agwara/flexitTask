@@ -14,7 +14,7 @@ const Home = (props) => {
       </div>
 
       <div className={styles.content}>
-        content
+        <h1>No Content Yet</h1>
       </div>
     </div>
   )
