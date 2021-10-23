@@ -1,0 +1,164 @@
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 0px 10px;
+}
+
+.bar {
+  width: 30px;
+  height: 30px;
+}
+
+.searchContainer {
+  border: 2px #f0eff4 solid;
+  flex-grow: 1;
+
+  height: 60px;
+  border-radius: 5px;
+
+  box-shadow: 2px 3px 26px -8px rgba(137, 138, 138, 0.64);
+  -webkit-box-shadow: 2px 3px 26px -8px rgba(137, 138, 138, 0.64);
+  -moz-box-shadow: 2px 3px 26px -8px rgba(137, 138, 138, 0.64);
+
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.searchIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.searchInput {
+  flex-grow: 1;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.searchbtn {
+  background-color: darkblue;
+  color: white;
+  padding: 8px 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.notification {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+}
+
+.notificationText {
+  position: absolute;
+  background-color: #cd2e31;
+  border-radius: 50%;
+  color: white;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 0px;
+  right: 0px;
+}
+
+.bellIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.profile {
+  width: 160px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+
+.status {
+  position: absolute;
+  bottom: 2px;
+  right: 0px;
+
+  height: 13px;
+  width: 13px;
+  background-color: #2bd151;
+  border-radius: 50%;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.profileImg {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+}
+
+.nameContainer {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.profileName {
+  color: #3a309e;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .profile,
+  .notification {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    column-gap: 5px;
+  }
+
+  .searchContainer {
+    padding: 0px 5px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .searchbtn {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  .searchInput {
+    font-size: 12px;
+    width: 80px;
+  }
+
+  .searchIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .searchContainer {
+    height: 45px;
+  }
+}
