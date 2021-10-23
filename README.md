@@ -1,4 +1,4 @@
-SOLUTION URL:
+SOLUTION URL: https://flexit-task.herokuapp.com/
 
 APPLICANT'S NAME: AGWARA NNAEMEKA
 EMAIL ADDRESS: nnaemekaagwara@gmail.com

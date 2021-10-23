@@ -13,4 +13,5 @@
 .content {
   grid-row: 2/3;
   background-color: orange;
+  margin: 20px;
 }
